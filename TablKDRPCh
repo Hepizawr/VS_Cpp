@@ -1,0 +1,37 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, ".1251");
+
+	int b1, b2, b3, b4, b5, a1, a2, a3, a4, a5;
+	a1 = 1;
+	a2 = 3;
+	a3 = 5;
+	a4 = 7;
+	a5 = 9;
+
+	b1 = pow(a1, 2);
+	printf("%8i", b1);
+
+	b2 = pow(a2, 2);
+	printf("%8i", b2);
+
+	b3 = pow(a3, 2);
+	printf("%8i", b3);
+
+	b4 = pow(a4, 2);
+	printf("%8i", b4);
+
+	b5 = pow(a5, 2);
+	printf("%8i", b5);
+
+	cout << "\n\n\tHepizawr";
+
+	
+	cout << "\n\n\t";
+	system("pause");
+	return 0;
+}
