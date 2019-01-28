@@ -1,0 +1,33 @@
+#include <iostream>
+#include <string>
+
+
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, ".1251");
+
+	string filename, filename2;
+
+	cout << "Ведите ваше имя: ";
+	cin >> filename;
+
+	cout << "Ведите фамилию: ";
+	cin >> filename2;
+
+	cout << filename;
+	cout << "\t" << filename2;
+	for (int x = 1; x <= 9; x++)
+	{
+		cout << "\n" << filename;
+		cout << "\t" << filename2;
+
+	}
+	
+	cout << "\n\n\tHepizawr";
+
+	cout << "\n\n\t";
+	system("pause");
+	return 0;
+}
