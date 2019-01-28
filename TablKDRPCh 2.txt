@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, ".1251");
+
+	int a, i, d, n, c;
+	a = 1;
+	n = 11;
+	for (int i = 0; i < n; i++)
+	{
+		a++;
+		d = 1;
+		do
+		{
+			d++;
+		} while (a%d != 0);
+		if (a == d)
+		{
+			
+				cout <<"\n"<<"\t" << a <<"*"<< a <<"="  <<  a*a;
+			
+		}
+	}
+	cout << "\n\n\tHepizawr";
+
+	cout << "\n\n\t";
+	system("pause");
+	return 0;
+}
