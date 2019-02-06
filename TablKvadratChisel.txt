@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	setlocale(LC_ALL, ".1251");
+	int x;
+	int n;
+	cout << "Ведiть число:";
+	cin >> n;
+	cout << "--------------";
+	cout << "\nЧисло";
+	cout << "\tКвадрат";
+	cout << "\n--------------";
+	for (x = 1; x <= n; x++)
+	{
+		cout <<"\n"<< x << "\t" << x * x;
+	}
+	cout << "\n--------------";
+
+	cout << endl << endl << "\t";
+	system("pause");
+	return 0;
+}
